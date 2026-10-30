@@ -116,11 +116,11 @@ Miovision solutions are deployed by leading municipal authorities, provincial go
 
 ```
 miovision/
-├── wp-content/                    # Platform themes, styles, graphics & uploads
+├── assets/                    # Platform themes, styles, graphics & uploads
 │   ├── plugins/                   # Frontend menu and form components
 │   ├── themes/moivisionWPv2/      # Brand styles, vector iconography & scripts
 │   └── uploads/                   # High-resolution agency seals, product art & logos
-├── wp-includes/                   # Core stylesheets, scripts & dashicons font pack
+├── assets/fonts/                   # Core stylesheets, scripts & dashicons font pack
 ├── 404.html                       # Fallback router error handler
 ├── index.html                     # Main application entry point
 ├── package.json                   # Project metadata and npm start script
