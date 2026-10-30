@@ -80,14 +80,14 @@ jQuery(document).ready(function($) {
         var productImg = document.querySelector('.nav-product-img>ul>li>img');
         if (productImg) {
 			if (this.closest('li').matches(':nth-child(1)')) {
-					productImg.src = "https://miovision.com/wp-content/uploads/2024/09/nav-product-img.png";
-					productImg.srcset = "https://miovision.com/wp-content/uploads/2024/09/nav-product-img.png";
+					productImg.src = "./assets/images/nav-product-img.png";
+					productImg.srcset = "./assets/images/nav-product-img.png";
 				} else if (this.closest('li').matches(':nth-child(2)')) {
-					productImg.src = "https://miovision.com/wp-content/uploads/2024/09/Frame-98-2.png";
-					productImg.srcset = "https://miovision.com/wp-content/uploads/2024/09/Frame-98-2.png";
+					productImg.src = "./assets/images/Frame-98-2.png";
+					productImg.srcset = "./assets/images/Frame-98-2.png";
 				} else if (this.closest('li').matches(':nth-child(3)')) {
-					productImg.src = "https://miovision.com/wp-content/uploads/2024/09/Frame-98.png";
-					productImg.srcset = "https://miovision.com/wp-content/uploads/2024/09/Frame-98.png";
+					productImg.src = "./assets/images/Frame-98.png";
+					productImg.srcset = "./assets/images/Frame-98.png";
 				}
 			}
 		});
