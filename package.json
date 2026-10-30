@@ -1,0 +1,24 @@
+{
+  "name": "miovision",
+  "version": "1.0.0",
+  "description": "Miovision — Intelligent Transportation Systems (ITS), Smart Traffic Management & AI Signal Optimization",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "intelligent-transportation-systems",
+    "its",
+    "smart-traffic",
+    "traffic-management",
+    "signal-optimization",
+    "computer-vision",
+    "connected-vehicles",
+    "v2x",
+    "traffic-ai",
+    "smart-cities"
+  ],
+  "author": "Abdou Arabi",
+  "license": "MIT"
+}
